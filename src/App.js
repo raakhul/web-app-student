@@ -62,13 +62,13 @@ const App = () => {
               <div className="wrapper">
                 <Routes>
                   <Route exact path="/" 
-                    component={CreateStudent} />
+                    Component={CreateStudent} exact />
                   <Route path='/create-student' 
-                    component={CreateStudent} />
+                    Component={CreateStudent} exact />
                   <Route path='/edit-student/:id' 
-                    component={EditStudent} />
+                    Component={EditStudent} exact />
                   <Route path='/student-list'
-                    component={StudentList} />
+                    Component={StudentList} exact />
                 </Routes>
               </div>
             </Col>
